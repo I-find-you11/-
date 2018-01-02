@@ -1,0 +1,173 @@
+#main {
+	width: 100%;
+	background: #f8f8f8;
+}
+#ab_banner{
+	width: 100%;
+	font-size: 0;
+}
+#ab_banner img {
+	width: 100%;
+}
+#ab_content {
+	width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 56px;
+}
+#ab_about {
+	width: 1256px;
+	margin-left: -28px;
+	background: url(../images/about/ab_about_bg.png) no-repeat left 26px;
+	text-align: center;
+	height: 419px;
+}
+.title {
+	margin: 0 -28px 50px 0;
+	padding-top: 66px;
+}
+.title h2 {
+	font-size:30px;
+	color: #0099ff;
+	margin-bottom: 13px;
+}
+.title h3 {
+	font-weight: 100;
+	font-size:24px;
+	color: #000;
+	margin-bottom: 30px;
+}
+.about_font {
+	padding-left: 350px;
+}
+.about_font p {
+	padding: 0px 28px 0 0;
+	color: #545454;
+	font-size: 16px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	text-align: left;
+	text-indent: 2em;
+}
+#ab_adv ul {
+	width: 100%;
+	margin-top: 64px;
+}
+#ab_adv ul li {
+	width: calc(100%/3);
+	text-align: center;
+	float: left;
+}
+#ab_adv ul li img {
+	margin: 0 0 26px 0; 
+}
+#ab_adv ul li p {
+	width: 354px;
+	font-size: 16px;
+	color: #5c5c5c;
+	line-height: 25px;
+	text-align: left;
+	text-indent: 2em;
+}
+#ab_adv ul li div {
+	position: relative;
+	border-radius: 100%;
+	width: 269px;
+	height: 269px;
+	overflow: hidden;
+	text-align: center;
+	margin: 0 auto 26px;
+}
+#ab_adv ul li div p {
+	position: absolute;
+	width: 229px;
+	height: 66px;
+	bottom: 0;
+	left: calc(50% - 114.5px);
+	background: rgba(89,89,89,0.8);
+	font-size: 24px;
+	line-height: 66px;
+	text-align: left;
+	padding-left:15px;
+	color: #fff;
+	letter-spacing: 0.8px;
+}
+#ab_team {
+	width: 100%;
+	background-color: #fff;
+}
+.content {
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+.ab_team {
+	border: 2px #f4f3f3 solid;
+	padding-bottom: 23px;
+	position: relative;
+}
+.ab_team ul {
+	width: 1016px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	height: 363px;
+}
+.ab_team ul li  {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.ab_team ul li:nth-child(2){
+	left: 2032px;
+	z-index: 3;
+}
+.ab_team ul li:nth-child(3){
+	left: 2032px;
+	z-index: 2;
+}
+.ab_team ul li div {
+	float: left;
+	width: 667px;
+	height: 363px;
+	text-align: left;
+}
+.ab_team ul li div h2 {
+	font-weight: 100;
+	display: block;
+	margin-top: 90px;
+	width: 138px;
+	height: 49px;
+	text-align: center;
+	background: #707070; 
+	line-height: 49px;
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.ab_team ul li div p {
+	font-size: 16px;
+	color: #313131;
+	line-height: 40px;
+	text-indent: 2em;
+}
+.prev, .next {
+	position:absolute;
+	width: 52px;
+	height: 52px;
+	background: #adb7c3;
+	border-radius: 100%;
+	text-align: center;
+	top:  calc(50% - 26px);
+	background-size: 100%;
+}
+.prev {
+	left: 5px;
+	background: #adb7c3 url(../images/about/next2.png) no-repeat center center;
+}
+.next {
+	right: 5px;
+	background: #adb7c3 url(../images/about/next1.png) no-repeat center center;
+}
+.prev:hover ,.next:hover {
+	background-color: red;
+}

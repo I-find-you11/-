@@ -1,0 +1,121 @@
+#main {
+	background: url(../images/service/service_bg.png) no-repeat center 500px;
+}
+#ser_banner {
+	font-size: 0;
+	width: 100%;
+}
+#ser_banner img {
+	width: 100%;
+	height: auto;
+}
+#content {
+	width: 1200px;
+	margin: 0 auto;
+	border: 1px solid #d9d9d9;
+	border-width: 0 1px; 
+}
+.title {
+	margin: 0 -28px 50px 0;
+	padding-top: 66px;
+	text-align: center;
+}
+.title h2 {
+	font-size:30px;
+	color: #0099ff;
+	margin-bottom: 13px;
+}
+.title h3 {
+	font-weight: 100;
+	font-size:24px;
+	color: #000;
+	margin-bottom: 30px;
+}
+#content ul li {
+	padding: 28px 0 43px 30px;
+	border-bottom: 1px solid #d9d9d9;
+}
+#content ul li:after {
+	content: '';
+	display: block;
+	clear: both;
+	width: 0;
+	height: 0;
+}
+#content ul li:nth-child(n) img {
+	float: left;
+	padding-left: 65px;
+}
+#content ul li:nth-child(n)  div {
+	width: 685px;
+	float: right;
+	padding-top: 36px;
+}
+#content ul li:nth-child(2n) img {
+	float: right;
+	padding-right: 65px;
+	padding-left: 0;
+}
+#content ul li:nth-child(2n)  div {
+	width: 685px;
+	float: left;
+	padding-top: 36px;
+}
+#content ul li div h2 {
+	color: #008ddb;
+	font-size: 22px;
+	margin-bottom: 3px;
+}
+#content ul li div h3 {
+	color: #008ddb;
+	margin-bottom: 13px;
+}
+#content ul li div p {
+	padding-right: 20px;
+	font-size: 18px;
+	color: #333333;
+	line-height: 30px;
+	text-indent: 2em;
+}
+#con_top {
+	text-align: center;
+	width: 1200px;
+	margin: 0 auto;
+}
+#con_address:after {
+	content: '';
+	display: block;
+	clear: both;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+} 
+#con_address {
+	margin-bottom: 61px;
+}
+#con_address img {
+	float: left;
+	margin-right: 106px;
+}
+#con_address ul {
+	float: left;
+	text-align: left;
+	font-size: 16px;
+	color: #666666;
+}
+#con_address ul li {
+	padding-left: 37px;
+	margin-bottom: 29px;
+}
+#con_address ul li:nth-child(1){
+	background: url(../images/contact/top_address.png) no-repeat left center;
+}
+#con_address ul li:nth-child(3){
+	background: url(../images/contact/top_tel.png) no-repeat left center;
+}
+#con_address ul li:nth-child(4){
+	background: url(../images/contact/top_fax.png) no-repeat left center;
+}
+#con_address ul li:nth-child(5){
+	background: url(../images/contact/top_email.png) no-repeat left center;
+}

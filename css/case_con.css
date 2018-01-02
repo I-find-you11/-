@@ -1,0 +1,47 @@
+#main {
+	width: 1200px;
+	margin: 0 auto;
+}
+#top {
+	margin-bottom: 50px;
+}
+#main #top h2 {
+	font-weight: 200;
+	font-size: 30px;
+	color: #333333;
+	letter-spacing: 5px;
+	margin-bottom: 5px;
+}
+#main #top p {
+	font-size: 18px;
+	color: #0093dd;
+	margin-bottom: 5px;
+}
+#main #top span {
+	color: #333333;
+	font-size: 14px;
+}
+#main img {
+	width: 100%;
+}
+#bottom {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	margin-top: 25px;
+	margin-bottom: 60px;
+}
+#bottom:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+#bottom .prve {
+	color: #0093dd;
+	font-size: 18px;
+	margin-right: 400px;
+}
+#bottom .next{
+	color: #0093dd;
+	font-size: 18px;
+}

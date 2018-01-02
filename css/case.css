@@ -1,0 +1,121 @@
+#main {
+	background: ##fbfbfb;
+}
+#case_banner {
+	font-size: 0;
+	width: 100%;
+}
+#case_banner img {
+	width: 100%;
+	height: auto;
+}
+.title {
+	margin: 0 -28px 50px 0;
+	padding-top: 66px;
+	text-align: center;
+}
+.title h2 {
+	font-size:30px;
+	color: #0099ff;
+	margin-bottom: 13px;
+}
+.title h3 {
+	font-weight: 100;
+	font-size:24px;
+	color: #000;
+	margin-bottom: 30px;
+}
+#case_content {
+	width: 1200px;
+	margin: 0 auto;
+}
+#top {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	margin-bottom: 53px;
+}
+#top li {
+	margin-right: 65px;
+}
+#top li div {
+	width: 173px;
+	height: 43px;
+	transform: skewX(-45deg);
+	border: 3px solid #eeeeee;
+	border-width: 3px 5px;
+	text-align: left;
+	line-height: 43px;
+}
+#top li div:hover {
+	background: #0099ff;
+	border: 3px solid #0099ff;
+	border-width: 3px 5px;
+}
+#top li div:hover p {
+	background: url(../images/case/top_cur_h.png) no-repeat 35px center;
+}
+#top li div:hover p a {
+	color: #fff;
+}
+#top li div p {
+	transform: skewX(45deg);
+	font-size: 16px;
+	padding-left: 65px;
+	background: url(../images/case/top_cur.png) no-repeat 35px center;
+}
+#top li div p a {
+	color: #474747;
+}
+#bottom {
+	width: 80%;
+	margin: 0 auto 50px;
+}
+#bottom:after {
+	content: '';
+	display: block;
+	clear: both;
+	width: 0;
+	height: 0;
+}
+#bottom li {
+	width: 22%;
+	margin-right: 4%;
+	margin-bottom: 37px;
+	float: left;
+}
+#bottom li:nth-child(4n){
+	margin-right: 0;
+}
+#bottom li img {
+	display: inline-block;
+	width: 100%;
+}
+#case_content  .fany  {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	border: 0;
+	margin-bottom: 35px;
+}
+#case_content  .fany li {
+	width: 39px;
+	border: 1px solid #d9d9d9;
+	height: 39px;
+	float: left;
+	margin-right: 8px;
+	padding: 0;
+	text-align: center;
+}
+#case_content  .fany li:hover {
+	background: #0099cc;
+}
+#case_content  .fany li:hover a {
+	color: #fff;
+}
+#case_content  .fany li a {
+	font-size: 14px;
+	color: #333333;
+	line-height: 39px;
+	background: none;
+}

@@ -1,0 +1,64 @@
+#con_banner {
+	width:100%;
+	font-size: 0;
+}
+#con_banner img {
+	width: 100%;
+}
+.title {
+	margin: 0 -28px 50px 0;
+	padding-top: 66px;
+}
+.title h2 {
+	font-size:30px;
+	color: #0099ff;
+	margin-bottom: 13px;
+}
+.title h3 {
+	font-weight: 100;
+	font-size:24px;
+	color: #000;
+	margin-bottom: 30px;
+}
+#con_top {
+	text-align: center;
+	width: 1200px;
+	margin: 0 auto 154px;
+}
+#con_address:after {
+	content: '';
+	display: block;
+	clear: both;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+} 
+#con_address {
+	margin-bottom: 61px;
+}
+#con_address img {
+	float: left;
+	margin-right: 106px;
+}
+#con_address ul {
+	float: left;
+	text-align: left;
+	font-size: 16px;
+	color: #666666;
+}
+#con_address ul li {
+	padding-left: 37px;
+	margin-bottom: 29px;
+}
+#con_address ul li:nth-child(1){
+	background: url(../images/contact/top_address.png) no-repeat left center;
+}
+#con_address ul li:nth-child(3){
+	background: url(../images/contact/top_tel.png) no-repeat left center;
+}
+#con_address ul li:nth-child(4){
+	background: url(../images/contact/top_fax.png) no-repeat left center;
+}
+#con_address ul li:nth-child(5){
+	background: url(../images/contact/top_email.png) no-repeat left center;
+}
